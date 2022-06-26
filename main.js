@@ -1,4 +1,4 @@
-import "./style.css";
+import "./style.scss";
 import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import { gsap } from "gsap";
@@ -18,21 +18,27 @@ const camera = new THREE.PerspectiveCamera(
 const controls = new OrbitControls(camera, renderer.domElement);
 const scene = new THREE.Scene();
 
+console.log(window.innerWidth, window.innerHeight)
 let boxArr = [];
 
 function init() {
   const ambientLight = new THREE.AmbientLight(0xffffff);
   gsap.registerPlugin(ScrollTrigger);
-
+  renderer.setSize(window.innerWidth, window.innerHeight)
   controls.enabled = false;
   controls.autoRotate = true;
   camera.position.setZ(550);
-  renderer.setSize(window.innerWidth, window.innerHeight);
-
 
   scene.add(ambientLight);
 }
 init();
+
+window.addEventListener('resize', () => {
+  renderer.setSize(window.innerWidth, window.innerHeight)
+  camera.aspect = window.innerWidth / window.innerHeight
+
+  camera.updateProjectionMatrix();
+})
 
 function addBox() {
   let boxSize = Math.floor(Math.random() * (30 - 7) + 10);
