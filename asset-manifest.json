@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.90c380a3.css",
+    "main.js": "/static/js/main.eda848e2.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/yestermorrow.mov": "/static/media/yestermorrow.808d73b1903ba04bcd21.mov",
+    "static/media/ticTacToe.mp4": "/static/media/ticTacToe.869822054ccb409585e4.mp4",
+    "static/media/yesterImage3.jpg": "/static/media/yesterImage3.0d56d99230cdaee8a6a3.jpg",
+    "static/media/ticImg3.JPG": "/static/media/ticImg3.183e5b48ebf3403a44c2.JPG",
+    "static/media/ticImg2.jpg": "/static/media/ticImg2.45594508ddf9622bccbd.jpg",
+    "static/media/yestermorrow.JPG": "/static/media/yestermorrow.9169936638a3c3a320e8.JPG",
+    "static/media/ticImg1.JPG": "/static/media/ticImg1.3fe82fc8b83c54d523fb.JPG",
+    "static/media/tic.JPG": "/static/media/tic.eda155e439778b86f633.JPG",
+    "static/media/yesterImage2.jpg": "/static/media/yesterImage2.5dc164c3d0f04e5f4ff6.jpg",
+    "static/media/yesterImage1.jpg": "/static/media/yesterImage1.b1d3496c029e3fb020ba.jpg",
+    "static/media/ticImg4.JPG": "/static/media/ticImg4.6ea7012aa1210505516c.JPG",
+    "static/media/yesterImage4.jpg": "/static/media/yesterImage4.1d0ab7d47a14528e5141.jpg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.90c380a3.css.map": "/static/css/main.90c380a3.css.map",
+    "main.eda848e2.js.map": "/static/js/main.eda848e2.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90c380a3.css",
+    "static/js/main.eda848e2.js"
+  ]
+}
