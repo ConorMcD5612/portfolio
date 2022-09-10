@@ -27,7 +27,7 @@ export const ProjectPage = () => {
             <ProjectBox
               className="projectBox-1"
               projectName="Yestermorrow"
-          
+              projectImage={yesterImg}
               gitLink={yesterGitLink}
               description={descriptions.yestermorrow}
               video={yesterVideo}
@@ -38,7 +38,7 @@ export const ProjectPage = () => {
               className="projectBox-2"
               projectName="9x Tic-Tac-Toe"
               carouselImgPath = "../../images/ticImages/ticImg"
-              
+              projectImage={ticImg}
               gitLink={ticGitLink}
               description={descriptions.ticTacToe}
               video={ticVideo}
