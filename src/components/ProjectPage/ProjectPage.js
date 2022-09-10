@@ -24,26 +24,26 @@ export const ProjectPage = () => {
       <div className=" section">
         <div className="projects">
           <h1>My Work</h1>
-          {/* <div className="projectBox-container"> */}
             <ProjectBox
               className="projectBox-1"
               projectName="Yestermorrow"
-              projectImage={yesterImg}
+          
               gitLink={yesterGitLink}
               description={descriptions.yestermorrow}
               video={yesterVideo}
               link={yesterLink}
+              carouselImgPath = "../../images/yesterImages/yesterImage"
             />
             <ProjectBox
               className="projectBox-2"
               projectName="9x Tic-Tac-Toe"
-              projectImage={ticImg}
+              carouselImgPath = "../../images/ticImages/ticImg"
+              
               gitLink={ticGitLink}
               description={descriptions.ticTacToe}
               video={ticVideo}
               link={ticLink}
             />
-          {/* </div> */}
         </div>
       </div>
     </>
